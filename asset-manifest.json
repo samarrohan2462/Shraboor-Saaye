@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Shraboor-Saaye/static/css/main.2a7bc3b2.css",
+    "main.js": "/Shraboor-Saaye/static/js/main.7878527b.js",
+    "static/js/453.b9256582.chunk.js": "/Shraboor-Saaye/static/js/453.b9256582.chunk.js",
+    "index.html": "/Shraboor-Saaye/index.html",
+    "main.2a7bc3b2.css.map": "/Shraboor-Saaye/static/css/main.2a7bc3b2.css.map",
+    "main.7878527b.js.map": "/Shraboor-Saaye/static/js/main.7878527b.js.map",
+    "453.b9256582.chunk.js.map": "/Shraboor-Saaye/static/js/453.b9256582.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a7bc3b2.css",
+    "static/js/main.7878527b.js"
+  ]
+}
