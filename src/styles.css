@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 10px;
+  background: #f6f4ef;
+  color: #000;
+  min-height: 100vh;
+}
+
+.dark {
+  background: #121212;
+  color: #fff;
+}
+
+h1 {
+  margin: 10px 0;
+  color: #b30000;        /* deep red */
+  font-size: 34px;
+  font-weight: bold;
+}
+
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;              /* more breathing space */
+  margin-bottom: 14px;
+  padding: 10px;
+}
+
+.controls input {
+  width: 120px;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+
+.controls button {
+  padding: 10px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #e0e0e0;
+}
+
+.controls button:hover {
+  background: #d0d0d0;
+}
+
+.controls button:active {
+  transform: scale(0.96);
+}
+
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 14px;
+}
+
+.nav-buttons button {
+  font-size: 28px;
+  padding: 10px 16px;
+  border-radius: 50%;
+}
+
+
+.page-img {
+  max-width: 95%;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.thumbnails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 8px;
+}
+
+.thumbnails img {
+  width: 100%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumbnails img:hover {
+  border-color: #888;
+}
+
+.footer {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+.page-container {
+  max-height: auto;       /* image never covers controls */
+  overflow: auto;         /* scroll instead of overlap */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.page-img {
+  transform-origin: top center;  /* zoom grows downward */
+}
+
+
+.dark .controls button {
+  background: #333;
+  color: #fff;
+}
+
+.dark .controls input {
+  background: #222;
+  color: #fff;
+  border: 1px solid #555;
+}
