@@ -18,5 +18,5 @@ Welcome to the official repository for **ShraBoor Sayee**, a collection of Urdu 
 * `/Art`: Visual representations or calligraphy related to the verses.
 * `/Metadata`: Information regarding the publication and author.
 
-## 🖋️ Author's Note
+## 🖋️ Author's Note (Intezar Ahmad Baqi)
 > "In the overlap of light and dark, we find our truest selves."
